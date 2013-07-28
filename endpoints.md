@@ -188,6 +188,10 @@ Params
 
 `GET - /timelines/popular`
 
+### On The Rise timeline
+
+`GET - /timelines/trending`
+
 ### Editors Pick timeline
 
 `GET - /timelines/promoted`
