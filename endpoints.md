@@ -186,7 +186,7 @@ Params
 
 ### Popular timeline
 
-`GET - /timelines/graph`
+`GET - /timelines/popular`
 
 ### Editors Pick timeline
 
