@@ -20,6 +20,7 @@ Data
 Data
 * `username` *email address*
 * `password`
+* `[deviceToken`
 
 ### Logout
 
