@@ -84,6 +84,7 @@ Data
 `GET - /users/<userId>/notifications`
 
 
+
 ## Lists
 
 ### Followers
@@ -216,7 +217,23 @@ Params
 
 `GET - /tags/trending`
 
-### Search
+
+
+# Channels
+
+### Featured
+
+`GET - /channels/featured`
+
+
+
+# Search
+
+### Users
+
+`GET - /users/search/<query>`
+
+### Tags
 
 `GET - /tags/search/<tagName>`
 
@@ -225,14 +242,6 @@ Params
 * `page`
 * `size`
 * `anchor`
-
-
-
-# Channels
-
-### Featured
-
-`GET - /channels/featured`
 
 
 
