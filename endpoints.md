@@ -132,7 +132,7 @@ Data
 
 ### Report
 
-`GET - /posts/<postId>/complaints`
+`POST - /posts/<postId>/complaints`
 
 ## Management
 
