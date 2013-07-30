@@ -27,8 +27,8 @@
       "endpoint": "users",
       "request_type": "post",
       "url_params": [],
-      "required_params": ["username", "password", "email", "authenticate"],
-      "optional_params": [],
+      "required_params": ["username", "password", "email"],
+      "optional_params": ["authenticate"],
       "default_params": {"authenticate": 1},
       "model": "User"
     },
