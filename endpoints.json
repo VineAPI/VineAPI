@@ -233,7 +233,7 @@
       "model": "PostCollection"
     },
     "get_tag_timeline": {
-      "endpoint": "timelines/users/%s",
+      "endpoint": "timelines/tags/%s",
       "request_type": "get",
       "url_params": ["tag_name"],
       "required_params": [],
