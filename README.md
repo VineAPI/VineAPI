@@ -28,7 +28,12 @@ VineAPI
 
 * [vinelib](https://github.com/ShaunBaker/vinelib)
 
+
 ## Documentation
 
+* [VineAPI](https://github.com/VineAPI/VineAPI/blob/master/endpoints.md)
 * [vino/Wiki](https://github.com/starlock/vino/wiki/API-Reference)
-* 
+
+## Endpoints
+
+* [endpoints.json](https://github.com/VineAPI/VineAPI/blob/master/endpoints.json)
