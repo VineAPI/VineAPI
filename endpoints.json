@@ -13,7 +13,7 @@
       "required_params": ["username", "password"],
       "optional_params": ["deviceToken"],
       "default_params": {"deviceToken": "0cc1dab0dab0dab0dab0dab0dab0dab0dab0dab0dab0dab0dab0dab0dab0dab0"},
-      "model": 'User'
+      "model": "User"
     },
     "logout": {
       "endpoint": "users/authenticate",
@@ -30,7 +30,7 @@
       "required_params": ["username", "password", "email", "authenticate"],
       "optional_params": [],
       "default_params": {"authenticate": 1},
-      "model": 'User'
+      "model": "User"
     },
     "get_me": {
       "endpoint": "users/me",
@@ -38,7 +38,7 @@
       "url_params": [],
       "required_params": [],
       "optional_params": [],
-      "model": 'User'
+      "model": "User"
     },
     "get_user": {
       "endpoint": "users/profiles/%s",
@@ -46,7 +46,7 @@
       "url_params": ["user_id"],
       "required_params": [],
       "optional_params": [],
-      "model": 'User'
+      "model": "User"
     },
     "update_user": {
       "endpoint": "users/%s",
@@ -54,7 +54,7 @@
       "url_params": ["user_id"],
       "required_params": [],
       "optional_params": ["description", "location", "locale", "private", "phoneNumber"],
-      "model": 'User'
+      "model": "User"
     },
     "set_explicit": {
       "endpoint": "users/%s/explicit",
@@ -126,7 +126,7 @@
       "url_params": ["user_id"],
       "required_params": [],
       "optional_params": [],
-      "model": 'UserCollection'
+      "model": "UserCollection"
     },
     "get_following": {
       "endpoint": "users/%s/following",
@@ -134,7 +134,7 @@
       "url_params": ["user_id"],
       "required_params": [],
       "optional_params": [],
-      "model": 'UserCollection'
+      "model": "UserCollection"
     },
     "like": {
       "endpoint": "posts/%s/likes",
@@ -142,7 +142,7 @@
       "url_params": ["post_id"],
       "required_params": [],
       "optional_params": [],
-      "model": 'Like'
+      "model": "Like"
     },
     "unlike": {
       "endpoint": "posts/%s/likes",
@@ -158,7 +158,7 @@
       "url_params": ["post_id"],
       "required_params": ["comment", "entities"],
       "optional_params": [],
-      "model": 'Comment'
+      "model": "Comment"
     },
     "uncomment": {
       "endpoint": "posts/%s/comments/%s",
@@ -174,7 +174,7 @@
       "url_params": ["post_id"],
       "required_params": [],
       "optional_params": [],
-      "model": 'Repost'
+      "model": "Repost"
     },
     "unrevine": {
       "endpoint": "posts/%s/repost/%s",
@@ -213,88 +213,88 @@
       "request_type": "get",
       "url_params": ["post_id"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_user_timeline": {
       "endpoint": "timelines/users/%s",
       "request_type": "get",
       "url_params": ["user_id"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_user_likes": {
       "endpoint": "timelines/users/%s/likes",
       "request_type": "get",
       "url_params": ["user_id"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_tag_timeline": {
       "endpoint": "timelines/users/%s",
       "request_type": "get",
       "url_params": ["tag_name"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_main_timeline": {
       "endpoint": "timelines/graph",
       "request_type": "get",
       "url_params": [],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_popular_timeline": {
       "endpoint": "timelines/popular",
       "request_type": "get",
       "url_params": [],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_ontherise_timeline": {
       "endpoint": "timelines/trending",
       "request_type": "get",
       "url_params": [],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_editorpicks_timeline": {
       "endpoint": "timelines/promoted",
       "request_type": "get",
       "url_params": [],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_channel_popular_timeline": {
       "endpoint": "timelines/channels/%s/popular",
       "request_type": "get",
       "url_params": ["channel_id"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_channel_recent_timeline": {
       "endpoint": "timelines/channels/%s/recent",
       "request_type": "get",
       "url_params": ["channel_id"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_venue_timeline": {
       "endpoint": "timelines/venues/%s",
       "request_type": "get",
       "url_params": ["venue_id"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'PostCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "PostCollection"
     },
     "get_trending_tags": {
       "endpoint": "tags/trending",
@@ -302,7 +302,7 @@
       "url_params": [],
       "required_params": [],
       "optional_params": [],
-      "model": 'TagCollection'
+      "model": "TagCollection"
     },
     "get_featured_channels": {
       "endpoint": "channels/featured",
@@ -310,23 +310,23 @@
       "url_params": [],
       "required_params": [],
       "optional_params": [],
-      "model": 'ChannelCollection'
+      "model": "ChannelCollection"
     },
     "search_tags": {
       "endpoint": "tags/search/%s",
       "request_type": "get",
       "url_params": ["tag_name"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'TagCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "TagCollection"
     },
     "search_users": {
       "endpoint": "users/search/%s",
       "request_type": "get",
       "url_params": ["query"],
       "required_params": [],
-      "optional_params": ['size', 'page', 'anchor'],
-      "model": 'UserCollection'
+      "optional_params": ["size", "page", "anchor"],
+      "model": "UserCollection"
     }
   }
 }
