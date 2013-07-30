@@ -16,6 +16,11 @@ VineAPI
 * [redvine](https://github.com/stakes/redvine)
 * [vine_client](https://github.com/obrigan228/vine_client)
 
+### JavaScript
+
+* [vinelib](https://github.com/ShaunBaker/vinelib)
+* [vino](https://github.com/tlack/vino)
+
 ### Go
 
 * [vine.go](https://github.com/ga2arch/go-vine-api/blob/master/vine.go)
@@ -23,10 +28,6 @@ VineAPI
 ### Java
 
 * [Vine4J](https://github.com/IkiMuhendis/Vine4J)
-
-### JavaScript
-
-* [vinelib](https://github.com/ShaunBaker/vinelib)
 
 
 ## Documentation
@@ -37,3 +38,7 @@ VineAPI
 ## Endpoints
 
 * [endpoints.json](https://github.com/VineAPI/VineAPI/blob/master/endpoints.json)
+
+## Errors
+
+* **WIP**
