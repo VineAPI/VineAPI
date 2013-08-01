@@ -48,7 +48,7 @@
       "optional_params": [],
       "model": "User"
     },
-    "update_user": {
+    "update_profile": {
       "endpoint": "users/%s",
       "request_type": "post",
       "url_params": ["user_id"],
