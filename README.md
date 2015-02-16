@@ -29,6 +29,9 @@ VineAPI
 
 * [Vine4J](https://github.com/IkiMuhendis/Vine4J)
 
+### Clojure
+
+* [vine-api](https://github.com/arnm/vine-api)
 
 ## Documentation
 
