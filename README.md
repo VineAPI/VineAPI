@@ -33,6 +33,10 @@ VineAPI
 
 * [vine-api](https://github.com/arnm/vine-api)
 
+### .Net
+
+* [VineSharp](https://github.com/stuisme/VineSharp)
+
 ## Documentation
 
 * [VineAPI](https://github.com/VineAPI/VineAPI/blob/master/endpoints.md)
